@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Resume</title>
+      <meta name="description" content="my digitalised resume">
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body class="body">
+      <header role="banner">
+         <!--marks header of the content-->
+         <img src="dd.png" alt="deloitte digital" align="right" class="set">  <!--image tag used for attaching image-->
+         <p style="display: block;">&nbsp;</p>
+         <h1 align="center" class="h1 below" id="restart">RESUME</h1>
+         <!--name of first section-->
+      </header>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <script src="top.js"></script>
+      <aside id="contact" style="display:none; " class="content ">
+         <!--adding aside to the content for page structuring-->
+         <ul align="right" class="right">
+            <!--used table for better structuring of contents-->
+            <li style="list-style-image: url('twitter.png');" class="allign">
+               <span class="colored allign" >Twitter</span>
+               <p><a href="https://twitter.com/intent/tweet?screen_name=sh147&ref_src=twsrc%5Etfw" class="small allign link" data-show-count="false">@sh147</a></p>
+               <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </li>
+            <hr class="thin">
+            <li style="list-style-image:url('phone.png')" class="allign">
+               <span class="colored allign">Mobile Number</span> 
+               <p class="small allign">8093301518</p>
+            </li>
+            <hr class="thin">
+            <li style="list-style-image:url('phone.png')" class="allign" >
+               <span class="colored allign">Phone Number</span>
+               <p class="small allign">8093301518</p>
+            </li>
+            <hr class="thin">
+            <li style="list-style-image:url('mail.png')" href="mailto:SuSudarshan@deloitte.com" class="allign">
+               <span class="colored link">Email</span> 
+               <p><a href="mailto:SuSudarshan@deloitte.com" class="link small">SuSudarshan@deloitte.com</a></p>
+            </li>
+         </ul>
+      </aside>
+      <!---javascript onclick() is used-->
+      <input type="image" src="contact.png" align="right" alt="contact" onclick="display()" class="content "/><!--CLICK ON IMAGE TO SEE CONTACTS-->
+      <article role="article">
+         <!--article is a block when separated from the rest of the content becomes independent entity-->
+         <main role="main">
+            <h1 class="h11">Sujith Sudarshan</h1>
+            <h2 class="colored h11">Business Technology Analyst</h2>
+            <h4 class="small h11">Deloitte Consulting India Pvt Ltd</h4>
+            <hr class="thick">
+            <section>
+               <!--section tag as it marks a new section of resume-->
+               <h3 class="h11">Summary of experience and qualifications</h3>
+               <hr>
+               <!--used to draw horizontal line-->
+               <p class="h11">Looking forward to Learn more about Technology and Apply my skill set in Industry grade projects.</p>
+               <hr>
+            </section>
+            <hr>
+            <section>
+               <h3 class="h11">Software/Products:</h3 >
+               <hr>
+               <p class="h11">Eclipse (JavaEE) [Training Only]</p>
+               <hr>
+            </section>
+            <hr>
+            <section>
+               <h3 class="h11">Development tools/Languages:</h3>
+               <hr>
+               <p class="h11">JavaSE [Project Experience], JavaEE [Training Only],C++ [Training Only], C [Training Only]</p>
+               <hr>
+            </section>
+            <hr>
+            <section>
+               <h3 class="h11">Hardware/Operating systems:</h3>
+               <hr>
+               <p class="h11">Windows [Project Experience], Linux [Project Experience]</p>
+               <hr>
+            </section>
+            <hr>
+            <section>
+               <h3 class="h11">Middleware/Databases:</h3>
+               <hr>
+               <p class="h11">MySQL [Training Only], OracleSQL [Training Only]</p>
+               <hr>
+            </section>
+            <section>
+               <h3 class="h11">General Tools:</h3>
+               <hr>
+               <p class="h11">Microsoft Office [Project Experience], Databases [Training Only]</p>
+            </section>
+            <hr class="thick">
+            <section>
+               <h3 class="h11">Education</h3>
+               <hr>
+               <p class="h11">Bachelors of Engineering, Information Technology Veer Surendra Sai University Of Technology - Burla</p>
+            </section>
+            <hr>
+            <hr class="thick">
+            <section>
+               <h3 class="h11">Training</h3>
+               <hr>
+               <p class="h11">JavaEETraining (Servlets, Spring, Hibernate) at NIIT</p>
+            </section>
+            <hr>
+            <section>
+               <dl>
+                  <h3 class="h11">Internal References</h3>
+                  <!--defintion list to mark up pairs of related items. The pairs themselves are a logically related list.-->
+                  <hr>
+                  <img src="yes.png" alt="yes!" align="left" >
+                  <dt class="h11">Bijal Karia</dt>
+                  <dt class="h11">Assistant Manager, hr</dt>
+                  <dt class="h11">+1 (470) 434-8461</dt>
+                  <dt class="h11"><a href = "mailto:BKaria@deloitte.com" class="link small">BKaria@deloitte.com</a></dt>
+               </dl>
+            </section>
+            <hr>
+         </main>
+      </article>
+      <hr class="thick">
+      <footer role="contentinfo">
+         <!--footer used to declare copyright details-->
+         <p class="small">Copyright &copy; 2014 Deloitte Development LLC. All rights reserved.</p>
+         <!-- special characters and symbols are declared using '&'-->
+      </footer>
+   </body>
+   <script src="script.js"></script><!--using javascript-->
+</html>
